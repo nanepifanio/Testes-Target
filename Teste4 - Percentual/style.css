@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 0.3125rem;
+}
+
+#total__value {
+  color: #4e4a4a;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.graph {
+  width: 100%;
+}
+
+.graph__container {
+  align-items: center;
+  margin-top: 2.1875rem;
+  width: inherit;
+}
+
+.graph__container__id {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0.9375rem;
+  border-right: 0.125rem solid #ccc;
+  padding: 0.625rem;
+}
+
+.graph__container__id__name {
+  font-weight: bold;
+  margin-bottom: 0.3125rem;
+}
+
+.graph__container__id__value {
+  color: #4e4a4a;
+  font-style: italic;
+}
+
+.graph__container__graph {
+  height: 1.25rem;
+}
+
+.graph__container__percentage {
+  margin-left: 0.625rem;
+  color: #4e4a4a;
+  font-style: italic;
+}

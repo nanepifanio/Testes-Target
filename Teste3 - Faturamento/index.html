@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="teste3.js" type="module" defer></script>
+    <title>Teste 3 - Faturamento</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- Tabela Faturamentos -->
+        <table>
+          <thead>
+            <tr>
+              <th class="table__title" colspan="2">Faturamentos</th>
+            </tr>
+            <tr>
+              <th>Dia</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody data-tbody="totInvoicing">
+            <!-- os dados da tabela entram aqui, de forma dinâmica -->
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <!-- Tabela Média Mensal -->
+        <table>
+          <thead>
+            <tr>
+              <th class="table__title" colspan="2">Média Mensal</th>
+            </tr>
+          </thead>
+          <tbody data-tbody="average">
+            <!-- os dados da tabela entram aqui, de forma dinâmica -->
+          </tbody>
+        </table>
+
+        <!-- Tabela Faturamentos maiores que a Média Mensal -->
+        <table>
+          <thead>
+            <tr>
+              <th class="table__title" colspan="2">Maiores que a Média</th>
+            </tr>
+            <tr>
+              <th>Dia</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody data-tbody="monthlyGreatersInvoicing">
+            <!-- os dados da tabela entram aqui, de forma dinâmica -->
+          </tbody>
+        </table>
+
+        <!-- Tabela Menor Faturamento -->
+        <table>
+          <thead>
+            <tr>
+              <th class="table__title" colspan="2">Menor Faturamento</th>
+            </tr>
+            <tr>
+              <th>Dia</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody data-tbody="smallerInvoicing">
+            <!-- os dados da tabela entram aqui, de forma dinâmica -->
+          </tbody>
+        </table>
+
+        <!-- Tabela Maior Faturamento -->
+        <table>
+          <thead>
+            <tr>
+              <th class="table__title" colspan="2">Maior Faturamento</th>
+            </tr>
+            <tr>
+              <th>Dia</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody data-tbody="greaterInvoicing">
+            <!-- os dados da tabela entram aqui, de forma dinâmica -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

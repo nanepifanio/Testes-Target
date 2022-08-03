@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+table {
+  margin: 20px auto;
+  table-layout: fixed;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 0.125rem solid black;
+}
+
+.table__title {
+  background-color: #ccc;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+@media (max-width: 37.5rem) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
